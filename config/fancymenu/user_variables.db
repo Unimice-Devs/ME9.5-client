@@ -1,0 +1,44 @@
+type = user_variables
+
+variable {
+  name = difficulty
+  value = ☠ ☠ ☠
+  reset_on_launch = false
+}
+
+variable {
+  name = newbie
+  value = 1
+  reset_on_launch = false
+}
+
+variable {
+  name = title
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = loading
+  value = 60
+  reset_on_launch = false
+}
+
+variable {
+  name = splash
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = easter_egg
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = themechanger
+  value = 0
+  reset_on_launch = false
+}
+

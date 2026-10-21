@@ -18,7 +18,7 @@
 
 [config_screen]
 	#Use Moonlight's config screen. When off, configs open the loader's screen instead: NeoForge's own (or Configured), Cloth Config or YACL on Fabric
-	custom_config_screen = true
+	custom_config_screen = false
 	#Give every installed mod with a config screen a tile, not just the ones using Moonlight. Their own screen opens when clicked
 	show_all_mod_configs = false
 	#Draw other mods' configs inside Moonlight's screen instead of theirs (NeoForge only). GENERIC_ONLY covers just the mods that never wrote a screen of their own, ALWAYS covers every mod. Per world server configs are only shown while a world is open. Best effort: options we can't show are left as they are

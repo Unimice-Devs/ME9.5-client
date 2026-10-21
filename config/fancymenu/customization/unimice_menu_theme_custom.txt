@@ -1,0 +1,46 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = %fancymenu:universal_layout%
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1752399690295
+  is_enabled = false
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:20555703-9d83-421c-a48f-ee30ebd45233-1776962453303] = [groups:][instances:23212577-fc78-4b62-ac5d-c7931bc767b4-1726860894341;]
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if_not][req_id:23212577-fc78-4b62-ac5d-c7931bc767b4-1726860894341] = 
+}
+
+menu_background {
+  source = [source:local]config/fancymenu/assets/background/menu_custom.mp4
+  loop = true
+  volume = 0.0
+  sound_source = master
+  parallax = false
+  parallax_intensity = 0.02
+  invert_parallax = false
+  instance_identifier = f773f4b5-b1c9-4f61-bc19-210899141774-1752399667204
+  background_type = video_mcef
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}
+

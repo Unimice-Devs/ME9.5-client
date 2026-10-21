@@ -1,0 +1,155 @@
+type = customizablemenus
+
+net.minecraft.client.gui.screens.DisconnectedScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.EditWorldScreen {
+}
+
+net.minecraft.client.gui.screens.BackupConfirmScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.OptimizeWorldScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.EditGameRulesScreen {
+}
+
+net.minecraft.client.gui.screens.CreateFlatWorldScreen {
+}
+
+net.minecraft.client.gui.screens.PresetFlatWorldScreen {
+}
+
+net.minecraft.client.gui.screens.CreateBuffetWorldScreen {
+}
+
+net.minecraft.client.gui.screens.DatapackLoadFailureScreen {
+}
+
+net.minecraft.client.gui.screens.InBedChatScreen {
+}
+
+net.minecraft.client.gui.screens.packs.PackSelectionScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.ExperimentsScreen {
+}
+
+net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
+}
+
+net.minecraft.client.gui.screens.ConfirmLinkScreen {
+}
+
+net.minecraft.client.gui.screens.achievement.StatsScreen {
+}
+
+net.minecraft.client.gui.screens.options.controls.ControlsScreen {
+}
+
+net.minecraft.client.gui.screens.options.SkinCustomizationScreen {
+}
+
+net.minecraft.client.gui.screens.options.ChatOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.options.LanguageSelectScreen {
+}
+
+net.minecraft.client.gui.screens.options.controls.KeyBindsScreen {
+}
+
+net.minecraft.client.gui.screens.options.MouseSettingsScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
+}
+
+net.minecraft.client.gui.screens.options.FontOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.options.AccessibilityOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.advancements.AdvancementsScreen {
+}
+
+net.minecraft.client.gui.screens.options.SoundOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.ConfirmScreen {
+}
+
+net.neoforged.neoforge.client.gui.ModMismatchDisconnectedScreen {
+}
+
+net.minecraft.client.gui.screens.LevelLoadingScreen {
+}
+
+net.minecraft.client.gui.screens.GenericMessageScreen {
+}
+
+net.minecraft.client.gui.screens.ProgressScreen {
+}
+
+net.minecraft.client.gui.screens.ConnectScreen {
+}
+
+net.minecraft.client.gui.screens.ReceivingLevelScreen {
+}
+
+net.mehvahdjukaar.vista.client.ui.VistaWelcomeScreen {
+}
+
+net.neoforged.neoforge.client.gui.ModListScreen {
+}
+
+net.minecraft.client.gui.screens.CreditsAndAttributionScreen {
+}
+
+me.decce.gnetum.gui.ConfigScreen {
+}
+
+me.decce.gnetum.gui.MoreOptionsScreen {
+}
+
+me.decce.gnetum.gui.ElementsScreen {
+}
+
+net.minecraft.client.gui.screens.WinScreen {
+}
+
+net.caffeinemc.mods.sodium.client.gui.VideoSettingsScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+me.flashyreese.mods.reeses_sodium_options.client.gui.SodiumVideoOptionsScreen {
+}
+
+com.example.keybindatlas.render.KeyboardScreen {
+}
+
+com.aizistral.nochatreports.common.gui.RealmsWarningScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+
+de.johni0702.minecraft.gui.container.AbstractGuiScreen$MinecraftGuiScreen {
+}
+
+net.minecraft.client.gui.screens.PauseScreen {
+}
+
+net.minecraft.client.gui.screens.options.OptionsScreen {
+}
+
+com.teamabnormals.blueprint.client.screen.SlabfishHatScreen {
+}
+
