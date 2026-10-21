@@ -1,0 +1,35 @@
+name: Build and Deploy Client
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Deploy to Server via rsync
+      uses: burnett01/rsync-deployments@7.0.1
+      with:
+        # Флаги rsync:
+        # -a: архивный режим
+        # -v: подробный вывод
+        # -z: сжатие при передаче
+        # --delete: УДАЛЯТЬ файлы на сервере, которых нет в репозитории
+        # --exclude: Исключить папки/файлы из синхронизации и защиты от удаления
+        switches: -avz --delete --exclude 'minecraft.jar' --exclude 'libraries/' --exclude 'natives/'
+        
+        # Что отправляем (вся текущая папка репозитория)
+        path: ./
+        
+        # Куда отправляем (строго в папку Mouse-Earth)
+        remote_path: "/home/shion/gravitlauncher/launcher/updates/Mouse-Earth/"
+        
+        remote_host: ${{ secrets.SSH_HOST }}
+        remote_user: ${{ secrets.SSH_USER }}
+        remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
