@@ -22,7 +22,7 @@ jobs:
         # -z: сжатие при передаче
         # --delete: УДАЛЯТЬ файлы на сервере, которых нет в репозитории
         # --exclude: Исключить папки/файлы из синхронизации и защиты от удаления
-        switches: -avz --delete --no-owner --no-group --exclude=".*" --exclude "blank" --exclude 'minecraft.jar' --exclude 'libraries/' --exclude 'natives/'
+        switches: -avz --delete --no-owner --no-group --omit-dir-times --exclude=".*" --exclude "blank" --exclude 'minecraft.jar' --exclude 'libraries/' --exclude 'natives/'
         
         # Что отправляем (вся текущая папка репозитория)
         path: ./
